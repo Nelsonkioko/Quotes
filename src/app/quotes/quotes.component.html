@@ -1,20 +1,21 @@
 <h1>Quotes</h1>
 
 <hr>
-<div class="container">
-    <div class="" *ngFor="let quote of Quotes;let i = 'index'">
+<div class="row">
 
+    <div class="" *ngFor="let quote of Quotes;let i = 'index'">
+        <div class="col-md4">
         <div class="">
-            <h4 id="{{i}}">{{quote.Quote}}</h4>
+            <h4 id="{{i}}">{{quote.quote}}</h4>
  
         </div>
-        <div class="" *ngIf="quote.showQuoteDetails;"></div>
+        <div class="" ></div>
         
-        <app-quotes-details [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quotes-details>
+        <app-quotes-details *ngIf="quote.showQuoteDetails;" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quotes-details>
     <br><br>
-    <button class="btn btn-primary" (click)='toogleDetails(i)'>Toogle Details</button>
+    <button class="btn btn-primary" (click)='toogleDetails(i)'>More</button>
     
-   
+   </div>
 
 </div>
 </div>

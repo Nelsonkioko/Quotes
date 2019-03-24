@@ -3,18 +3,17 @@
 <hr>
 
     <div class="container" *ngFor="let quote of Quotes;let i = 'index'">
-        <div class="row">
-          <div class="col-md4-card">
+        <div class="jumbotron">
+          
             <div class="">
               <h4 id="{{i}}">{{quote.quote}}</h4>
             </div>
-        <div class="" ></div>
         
         <app-quotes-details *ngIf="quote.showQuoteDetails;" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quotes-details>
     <br><br>
     <button class="btn btn-primary" (click)='toogleDetails(i)'>More</button>
-          </div>
         </div>
+     
    </div>
 
 

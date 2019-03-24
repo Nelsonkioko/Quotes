@@ -1,21 +1,20 @@
 .jumbotron{
     background-color: rgb(188, 161, 204);
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
-.form{
-    float:left;
-    padding:left 20px;
-    
+.col-md-4{
+    padding: 200px;
+   
 }
-.quotesholder  {
-    float:left;
+
     
-}
 #heading {text-align: center; color:#e5c8f3}
-.full{
+
+.whole{
     background-image: url('src/images/imgf3.jpg');
     background-attachment: fixed;
+    background-size: cover;
 
     
 }

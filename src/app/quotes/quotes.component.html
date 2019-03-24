@@ -1,10 +1,11 @@
-<div class="full">
+<div class="whole">
 <h1 id="heading">Your Everyday Quotes </h1>
-<app-quotes-form class="form" (addQuote)="addNewQuote($event)"></app-quotes-form>
+<div class="row">
+<div  class="form"><app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form></div>
 
 
 
-  <div class="quotesholder">
+  <div class="col-md-6">
     <div class="" *ngFor="let quote of Quotes;let i = 'index'">
         <div class="jumbotron">
           
@@ -16,7 +17,7 @@
     <br><br>
     <button class="btn btn-primary" (click)='toogleDetails(i)'>More</button>
         </div>
-     
+      </div>
    </div>
   </div>
 </div> 

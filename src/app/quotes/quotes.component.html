@@ -1,9 +1,10 @@
 <body>
 <h1>Quotes</h1>
-<app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
+<div class="form"><button routerLink="/src/app/quotes-form.component.html" (addQuote)="addNewQuote($event)"> Button Label</button> 
+</div>
 
 <hr>
-
+  <div class="quotesholder">
     <div class="container" *ngFor="let quote of Quotes;let i = 'index'">
         <div class="jumbotron">
           
@@ -17,6 +18,6 @@
         </div>
      
    </div>
-
+  </div>
 </body> 
 

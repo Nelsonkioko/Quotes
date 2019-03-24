@@ -9,7 +9,7 @@ export class QuotesComponent implements OnInit {
 
   Quotes = [ 
     new Quote(1, `Nelson Kioko`, `Never give up on someone miracles happen everyday`, new Date(2019,2,21)),
-    new Quote(2, `Nelson Kioko`, `Never give up on someone miracles happen everyday`, new Date(2019,2,21))
+    new Quote(2, `Curtis`, `It's amazing what doors can open if you reach out to people with a smile`, new Date(2019,0,21))
   ]
 
   toogleDetails(index){

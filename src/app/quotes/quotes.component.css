@@ -4,6 +4,14 @@
 }
 body{
     background-image: url('src/images/img.jpg');
-    background-position:fixed;
     background-size: cover;
+    background-attachment: fixed;
     }
+.form {
+    float:left;
+    width: 30%;
+}
+.quotesholder  {
+    float:left;
+    width: 70%;
+}

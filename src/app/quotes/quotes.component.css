@@ -3,8 +3,9 @@
     opacity: 0.7;
 }
 
-.col-md4-card{
+.form{
     float:left;
+    padding:left 20px;
     
 }
 .quotesholder  {
@@ -12,3 +13,9 @@
     
 }
 #heading {text-align: center; color:#e5c8f3}
+.full{
+    background-image: url('src/images/imgf3.jpg');
+    background-attachment: fixed;
+
+    
+}

@@ -1,18 +1,14 @@
 .jumbotron{
-    background-color: rgb(149, 128, 161);
+    background-color: rgb(188, 161, 204);
     opacity: 0.7;
 }
-.full{
-    background-image: url('src/images/img.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    }
-.form {
+
+.col-md4-card{
     float:left;
-    width: 30%;
+    
 }
 .quotesholder  {
     float:left;
-    width: 70%;
+    
 }
-h1{text-align: center;}
+#heading {text-align: center; color:#e5c8f3}

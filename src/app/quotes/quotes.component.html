@@ -1,11 +1,11 @@
 <div class="full">
-<h1>Your Everyday Quotes </h1>
-<div class="form"><app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
+<h1 id="heading">Your Everyday Quotes </h1>
+<div class="col-md4-card"><app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
 </div>
 
-<hr>
+
   <div class="quotesholder">
-    <div class="container" *ngFor="let quote of Quotes;let i = 'index'">
+    <div class="" *ngFor="let quote of Quotes;let i = 'index'">
         <div class="jumbotron">
           
             <div class="">

@@ -6,6 +6,7 @@ import {Quote} from '../quote';
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
+
   Quotes = [ 
     new Quote(1, `Nelson Kioko`, `Never give up on someone miracles happen everyday`, new Date(2019,2,21)),
     new Quote(2, `Nelson Kioko`, `Never give up on someone miracles happen everyday`, new Date(2019,2,21))
@@ -14,6 +15,7 @@ export class QuotesComponent implements OnInit {
   toogleDetails(index){
     this.Quotes[index].showQuoteDetails = !this.Quotes[index].showQuoteDetails;
   }
+  
 //delete function
   deleteQuote(isComplete,index){
     if (isComplete){

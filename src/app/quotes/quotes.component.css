@@ -4,4 +4,6 @@
 }
 body{
     background-image: url('src/images/img.jpg');
+    background-image:no-repeat;
+    background-image: fixed;
     }

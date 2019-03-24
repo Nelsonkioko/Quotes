@@ -2,3 +2,6 @@
     background-color: rgb(149, 128, 161);
     opacity: 0.7;
 }
+body{
+    background-image: url('src/images/img.jpg');
+    }

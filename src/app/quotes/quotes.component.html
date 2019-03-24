@@ -1,6 +1,6 @@
-<body>
-<h1>Quotes</h1>
-<div class="form"><button routerLink="/src/app/quotes-form.component.html" (addQuote)="addNewQuote($event)"> Button Label</button> 
+<div class="full">
+<h1>Your Everyday Quotes </h1>
+<div class="form"><app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
 </div>
 
 <hr>
@@ -19,5 +19,5 @@
      
    </div>
   </div>
-</body> 
+</div> 
 

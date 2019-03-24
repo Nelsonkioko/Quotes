@@ -2,7 +2,7 @@
     background-color: rgb(149, 128, 161);
     opacity: 0.7;
 }
-body{
+.full{
     background-image: url('src/images/img.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -15,3 +15,4 @@ body{
     float:left;
     width: 70%;
 }
+h1{text-align: center;}

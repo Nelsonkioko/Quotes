@@ -1,9 +1,14 @@
 # Quote
-This is an application where user can write quotes and delete them
+This is an application where user can write quotes and delete them.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+## Author 
+* Nelson Kioko
+
+## Project Description 
+This is web application that allows wsers to write quotes
 
 ## Setup/Installation Requirements
-You will need a browser to run this site.
+You will need a browser to run this site because it entirely depends on a server.
 
 ## Development server
 

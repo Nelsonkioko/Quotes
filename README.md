@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Nelson Kioko
 
 ## Project Description 
-This is web application that allows wsers to write quotes
+This is web application that allows users to write quotes.It includes an upvote and a downvote functionality.
 
 ## Setup/Installation Requirements
 You will need a browser to run this site because it entirely depends on a server.
